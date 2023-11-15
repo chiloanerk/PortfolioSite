@@ -1,8 +1,8 @@
 <div>
-    <ul id="navigation" class="flex h-12 place-items-center align-middle justify-between">
-        <li id="feed"><a href="/feed">Feed</a></li>
-        <li id="highlights"><a href="/highlights">Highlights</a></li>
-        <li id="blog"><a href="/blog">Blog</a></li>
-        <li id="about"><a href="/about">About</a></li>
+    <ul id="navigation" class="flex h-12 place-items-center justify-around">
+        <li id="feed"><a href="/feed" class="hover:font-normal px-4 py-2">Feed</a></li>
+        <li id="highlights"><a href="/highlights" class="hover:font-normal px-4 py-2">Highlights</a></li>
+        <li id="blog"><a href="/blog" class="hover:font-normal px-4 py-2">Blog</a></li>
+        <li id="about"><a href="/about" class="hover:font-normal px-4 py-2">About</a></li>
     </ul>
 </div>

@@ -21,6 +21,10 @@ links.forEach(link => {
     link.addEventListener('click', function(event) {
         // Prevent page refresh
         event.preventDefault();
+        links.forEach(link => {
+            link.classList.remove('border-l', 'border-t', 'border-r', 'border-gray-500', 'rounded-t');
+        });
+        this.classList.add('border-l', 'border-t', 'border-r', 'border-gray-500', 'rounded-t')
         const url = this.querySelector('a').getAttribute('href');
         // Loads the content dynamically into the #main div
         loadContent(url);
