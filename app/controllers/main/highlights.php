@@ -1,0 +1,2 @@
+<?php
+view('main/highlights');
