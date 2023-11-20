@@ -8,12 +8,12 @@
     </button>
 </div>
 <div class="h-2/5 p-1">
-    <h1 class="text-xl font-bold">Name Surname</h1>
-    <p class="mt-2">Tagline Lorem ipsum dolor.</p>
-    <p class="mt-2">Roles: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nisi.</p>
-    <ul class="flex justify-around mt-4">
-        <li><a href="#">linkedIn</a></li>
-        <li><a href="#">Twitter/X</a></li>
-        <li><a href="#">Facebook</a></li>
+    <h1 class="text-xl font-bold">Relebogile Chiloane</h1>
+    <p class="mt-2">Mpumalanga - South Africa</p>
+    <p class="mt-2">Fullstack Developer | Private Tutor | IT Graduate | Earthmoving Equipment Technician</p>
+    <ul class="flex justify-around mt-5">
+        <li><a href="https://www.linkedin.com/in/chiloanerk/" class="hover:font-bold">linkedIn</a></li>
+        <li><a href="https://twitter.com/reezyDev" class="hover:font-bold">Twitter/X</a></li>
+        <li><a href="https://github.com/chiloanerk" class="hover:font-bold">Github</a></li>
     </ul>
 </div>
