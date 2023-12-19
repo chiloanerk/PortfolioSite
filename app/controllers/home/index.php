@@ -1,9 +1,16 @@
 <?php
-$title = 'My PHP Router';
-$heading = 'Welcome to ';
-$content = 'This is proof the router works.';
+
+use App\models\Database;
+use App\models\profile\User;
+
+$title = 'My Portfolio';
+
+$db = new Database();
+$user = new User($db);
+
+$userInfo = $user->getUser();
+
 view('home/index', [
     'title' => $title,
-    'heading' => $heading,
-    'content' => $content
+    'userInfo' => $userInfo
 ]);
