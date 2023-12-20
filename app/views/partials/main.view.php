@@ -1,3 +1,3 @@
-<div id="main" class="p-2">
+<div id="main">
 <?php include_once base_path('app/controllers/main/feed.php') ?>
 </div>
