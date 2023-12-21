@@ -1,5 +1,5 @@
 <?php foreach ($posts as $post) : ?>
-    <section class="border-b border-gray-100 hover:bg-gray-50 p-2">
+    <section class="border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 hover:dark:bg-gray-800 p-2">
         <header class="py-2 flex justify-between">
             <h2 class="text-2xl font-semibold text-green-600"><?= $post['title'] ?></h2>
             <p class="text-xs font-light">Posted on <?= date('d/m/Y H:i', strtotime($post['timestamp'])); ?></p>

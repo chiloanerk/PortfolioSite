@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > distanceFromTop) {
-            navbar.classList.add('bg-gray-50', 'bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-2/5', 'mx-auto');
+            navbar.classList.add('bg-gray-50', 'dark:bg-gray-700' , 'bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-2/5', 'mx-auto');
             article.classList.add('mt-12');
         } else {
-            navbar.classList.remove('bg-gray-50', 'bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-2/5', 'mx-auto');
+            navbar.classList.remove('bg-gray-50', 'dark:bg-gray-700', 'bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-2/5', 'mx-auto');
             article.classList.remove('mt-12')
         }
     });

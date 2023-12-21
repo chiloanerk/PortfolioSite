@@ -1,5 +1,5 @@
 <?php foreach ($getFeed as $feed) : ?>
-    <section class="flex flex-row border-b border-gray-100 hover:bg-gray-50 p-2">
+    <section class="flex flex-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 hover:dark:bg-gray-800 p-2">
         <div class=" w-1/12">
             <a href="/">
                 <img src="images/profile.png" alt="" class="w-10 h-10 rounded-full border border-gray-200">
