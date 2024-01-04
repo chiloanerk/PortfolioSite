@@ -1,6 +1,6 @@
 <?php
 
-use App\models\about\AboutActions;
+use App\models\about\about\AboutActions;
 use App\models\Database;
 use App\models\profile\User;
 

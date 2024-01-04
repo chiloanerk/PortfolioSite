@@ -2,10 +2,8 @@
     <img src="images/header.webp" alt="" class="object-cover h-full w-full">
 </div>
 <div class="h-10 flex justify-between place-items-center p-1">
-    <img src="images/profile.png" alt=""
+    <img src="images/profile.png" alt="profile image"
          class="h-24 w-24 rounded-full bg-gray-100 -translate-y-5 border-2 border-gray-100">
-
-
     <a href="mailto:<?= $userInfo['email'] ?>">
         <button class="px-4 py-2 text-gray-50 rounded-3xl mt-2 text-sm border border-gray-100 bg-gray-950 hover:bg-gray-500 dark:bg-gray-100 dark:hover:bg-gray-300 dark:text-gray-950">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="20"
@@ -31,6 +29,9 @@
             <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/>
         </svg>
         <span class="ml-1"><?= $userInfo['state'] . ' - ' . $userInfo['country'] ?></span>
+    </div>
+    <div class="mt-2 flex align-middle font-light">
+        <p><span class="font-bold ml-1 mr-1"><?= $count ?></span> Visitors</p>
     </div>
     <p class="mt-2 text-center"><?= $userInfo['summary'] ?></p>
     <div class="w-3/4 mx-auto">
@@ -71,5 +72,4 @@
                 </a></li>
         </ul>
     </div>
-
 </div>

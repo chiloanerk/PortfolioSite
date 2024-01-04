@@ -1,6 +1,6 @@
 <?php
 
-namespace App\models\about;
+namespace App\models\about\about;
 
 use App\models\Database;
 

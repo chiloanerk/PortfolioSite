@@ -2,11 +2,20 @@
 
 use App\models\Database;
 use App\models\profile\User;
+use App\models\VisitorCounter;
 
 $title = 'My Portfolio';
 
 $db = new Database();
 $user = new User($db);
+
+$visitorCounter = new VisitorCounter($db);
+
+// Increment the visitor count if necessary
+$visitorCount = $visitorCounter->incrementCount();
+
+// Retrieve the updated visitor count
+$count = $visitorCounter->getVisitorCount();
 
 // Default values for when user information is not set
 // in the database.
@@ -27,5 +36,6 @@ $userSocials = $user->getSocials() ? $user->getSocials() : [
 view('home/index', [
     'title' => $title,
     'userInfo' => $userInfo,
-    'userSocials' => $userSocials
+    'userSocials' => $userSocials,
+    'count' => $count
 ]);
