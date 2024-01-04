@@ -1,1 +1,1 @@
-<p class="text-sm font-light">&copy; <?= date('Y') ?> Relebogile Chiloane. All rights reserved.</p>
+<p class="text-sm font-light">&copy; <?= date('Y') ?> <?= $userInfo['name'] . ' ' . $userInfo['surname'] ?>. All rights reserved.</p>
