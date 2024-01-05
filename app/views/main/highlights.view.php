@@ -13,7 +13,7 @@
             </div>
             <div class="grid grid-cols-3">
                 <img src="images/highlights/weather_mobile.jpeg" alt="A weather app mobile version"
-                     class="object-contain h-80 col-span-1">
+                     class="object-cover h-40 w-40 overflow-scroll col-span-1">
                 <div class="col-span-2">
                     <p >
                         This is a weather app written entirely using PHP OOP. The weather data is pulled from
@@ -31,8 +31,6 @@
                         The 5 day weekly data is shown together with its own weather icons, a short description and maximum and minimum temperatures.
                     </p>
                 </div>
-
-
             </div>
 
         </article>

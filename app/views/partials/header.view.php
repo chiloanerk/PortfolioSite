@@ -5,7 +5,7 @@
     <img src="images/profile.png" alt="profile image"
          class="h-24 w-24 rounded-full bg-gray-100 -translate-y-5 border-2 border-gray-100">
     <a href="mailto:<?= $userInfo['email'] ?>">
-        <button class="px-4 py-2 text-gray-50 rounded-3xl mt-2 text-sm border border-gray-100 bg-gray-950 hover:bg-gray-500 dark:bg-gray-100 dark:hover:bg-gray-300 dark:text-gray-950">
+        <button class="px-4 py-2 text-gray-50 rounded-3xl mt-2 mr-1 text-sm bg-gray-950 hover:bg-gray-500 dark:bg-gray-100 dark:hover:bg-gray-300 dark:text-gray-950">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="20"
                  height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
                  stroke-linejoin="round">

@@ -11,7 +11,7 @@
     <script src="scripts/nav.js" defer></script>
 </head>
 <body class="flex flex-col min-h-screen dark:bg-gray-900 dark:text-gray-50 text-gray-900 text-sm">
-<div id="container" class="md:w-2/5 md:mx-auto bg-transparent flex-grow">
+<div id="container" class="lg:w-2/5 lg:mx-auto md:w-3/4 md:mx-auto bg-transparent flex-grow">
     <main class="border border-gray-100 dark:border-gray-700 flex flex-col min-h-screen">
         <header class="h-96 mb-5">
             <?php include base_path('app/views/partials/header.view.php')?>
