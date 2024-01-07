@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $title ?></title>
-<!--    <link rel="stylesheet" href="css/styles.css">-->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
     <script src="scripts/nav.js" defer></script>
 </head>
 <body class="flex flex-col min-h-screen dark:bg-gray-900 dark:text-gray-50 text-gray-900 text-sm">
 <div id="container" class="lg:w-2/5 lg:mx-auto md:w-3/4 md:mx-auto bg-transparent flex-grow">
     <main class="border border-gray-100 dark:border-gray-700 flex flex-col min-h-screen">
-        <header class="h-96 mb-5">
+        <header class="h-96 mb-12">
             <?php include base_path('app/views/partials/header.view.php')?>
         </header>
         <nav id="navbar" class="h-12 border-b border-gray-100 dark:border-gray-700 transition-all duration-300">
