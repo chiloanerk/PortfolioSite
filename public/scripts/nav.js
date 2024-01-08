@@ -23,9 +23,9 @@ links.forEach(link => {
         // Prevent page refresh
         event.preventDefault();
         links.forEach(link => {
-            link.classList.remove('border-b-2', 'border-green-500', 'font-bold');
+            link.classList.remove('bg-gray-100', 'dark:bg-gray-700', 'border-b-2', 'border-green-500', 'font-bold');
         });
-        this.classList.add('border-b-2', 'border-green-500', 'font-bold')
+        this.classList.add('bg-gray-100', 'dark:bg-gray-700', 'border-b-2', 'border-green-500', 'font-bold')
         const url = this.querySelector('a').getAttribute('href');
         // Loads the content dynamically into the #main div
         loadContent(url);
@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > distanceFromTop) {
-            navbar.classList.add('bg-gray-50', 'dark:bg-gray-700' , 'bg-opacity-90', 'fixed', 'top-0', 'w-full',  'md:w-3/4', 'lg:w-2/5', 'mx-auto');
+            navbar.classList.add('bg-gray-50', 'dark:bg-gray-700' , 'bg-opacity-90', 'dark:bg-opacity-90', 'fixed', 'top-0', 'w-full',  'md:w-3/4', 'lg:w-2/5', 'mx-auto');
             article.classList.add('mt-12');
         } else {
-            navbar.classList.remove('bg-gray-50', 'dark:bg-gray-700', 'bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-3/4', 'lg:w-2/5', 'mx-auto');
+            navbar.classList.remove('bg-gray-50', 'dark:bg-gray-700', 'bg-opacity-90', 'dark:bg-opacity-90', 'fixed', 'top-0', 'w-full', 'md:w-3/4', 'lg:w-2/5', 'mx-auto');
             article.classList.remove('mt-12')
         }
     });

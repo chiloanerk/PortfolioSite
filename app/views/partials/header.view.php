@@ -1,7 +1,9 @@
 <!-- Top Half -->
 <div class="h-1/2 flex justify-center items-center">
-    <img src="images/header-image.jpeg" alt="male figure in wilderness working on a laptop"
-         class="object-cover h-full w-full">
+    <img src="images/header-image-dark.jpeg" alt="male figure in wilderness working on a laptop"
+         class="hidden dark:block object-cover h-full w-full">
+    <img src="images/header-image-light.jpeg" alt="male figure in wilderness working on a laptop"
+         class="dark:hidden block object-cover h-full w-full">
 </div>
 <!-- Bottom Half -->
 <div class="h-10 flex justify-between place-items-center p-1">

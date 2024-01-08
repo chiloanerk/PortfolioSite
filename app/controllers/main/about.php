@@ -8,16 +8,16 @@ $db = new Database();
 $about = new AboutActions($db);
 $user = new User($db);
 
-$userInfo = $user->getUser() ? $user->getUser() : [
+$userData = $user->getUser() ? $user->getUser() : [
     'email' => 'email@example.com'
 ];
 
-$aboutInfo = $about->getAbout() ? $about->getAbout() : [
+$aboutData = $about->getAbout() ? $about->getAbout() : [
     'intro' => 'The is where your intro paragraph goes',
     'experience' => 'Your experience goes here',
 ];
 
 view('main/about', [
-    'aboutInfo' => $aboutInfo,
-    'userInfo' => $userInfo
+    'aboutData' => $aboutData,
+    'userData' => $userData
 ]);

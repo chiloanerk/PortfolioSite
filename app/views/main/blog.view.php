@@ -9,7 +9,7 @@
             <?= $parser->text($post['content']); ?>
         </article>
         <div class="py-2">
-            <?php include base_path('app/views/partials/social-buttons.php')?>
+            <?php include base_path('app/views/partials/reaction-buttons.php')?>
         </div>
     </section>
 <?php endforeach; ?>
