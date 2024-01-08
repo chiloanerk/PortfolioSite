@@ -11,7 +11,7 @@
             <article
                     class="prose-sm prose-slate border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 hover:dark:bg-gray-800 p-0.5 mb-4">
                 <div class="mb-2 flex justify-between">
-                    <p class="font-bold"><?= $content['title'] ?></p>
+                    <p class="font-bold text-xl"><?= $content['title'] ?></p>
                 </div>
                 <div>
 <!--                    fetch from database the markdown and convert to html-->

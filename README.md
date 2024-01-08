@@ -25,7 +25,13 @@
     ],
     ```
 
-5. Additional Notes:
+5. Tailwind needs to build the css for when changes are made, so you will need to run in a seperate tab 
+   `npx tailwindcss -i app/tailwind/input.css -o ./public/css/styles.css --watch
+      `  
+   and keep it running, otherwise you will get inconsistent styling.  
+   
+
+6. Additional Notes:
 
 - If you encounter any issues, feel free to refer to the official documentation for the technologies used in this
   project.
