@@ -1,10 +1,12 @@
 ## Portfolio Website for Relebogile Chiloane
 
-1. Getting this site up and running is fairly simple.
+1. Getting this site up and running is fairly simple. Create a database named portfolioSite the import the db.sql file.
+2. Modify the details in the config.php file to your preferred database access credentials.
+2. Run this in the project root directory
 
     `php -S localhost:[port] -t public`
 
-2. You will need to open up your mysql server and set your user details in the user table.
+2. You will need to open up your mysql server and prefill your user details in the user table.
 3. My post content is written in markup and stored inside the database. You will need to
    install [Parsedown](https://github.com/erusev/parsedown?tab=readme-ov-file) using 
 
