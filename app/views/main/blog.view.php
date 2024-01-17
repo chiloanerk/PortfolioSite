@@ -6,8 +6,14 @@
             <p class="text-xs font-light">Posted on <?= date('d/m/Y H:i', strtotime($post['timestamp'])); ?></p>
         </header>
         <article class="prose-sm prose-slate">
-            <?= $parser->text($post['content']); ?>
+            <?= $parser->text($excerpt); ?>
         </article>
+        <div class="flex justify-end py-2">
+            <?php
+                $url = "blog_post/?id={$post['id']}";
+            ?>
+            <a href="<?= $url ?>" class="text-blue-500 hover:underline">Read more</a>
+        </div>
         <div class="py-2">
             <?php include base_path('app/views/partials/reaction-buttons.php')?>
         </div>

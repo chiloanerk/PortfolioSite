@@ -21,3 +21,19 @@ function view($viewPath, array $data = [])
         var_dump($viewFilePath);
     }
 }
+
+function truncateText($text, $length) {
+    if (strlen($text) > $length) {
+        $text = substr($text, 0, $length);
+        $text = substr($text, 0, strrpos($text, ' ')) . '...';
+    }
+    return $text;
+}
+
+function generateSlug($title) {
+    $slug = strtolower(str_replace(' ', '-', $title));
+    // Remove any non-alphanumeric characters
+    $slug = preg_replace('/[^a-z0-9-]/', '', $slug);
+    return $slug;
+}
+

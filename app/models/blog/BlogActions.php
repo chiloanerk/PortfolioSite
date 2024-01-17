@@ -15,7 +15,7 @@ class BlogActions
     public function getBlogPost($postId)
     {
         $query = 'SELECT * FROM posts WHERE id = ?';
-        return $this->db->fetchSingle($query, $postId);
+        return $this->db->fetchSingle($query, [$postId]);
     }
 
     public function getAllBlogPosts()
